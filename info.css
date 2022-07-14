@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+}
+.info-container {
+  display: grid;
+  place-items: center;
+  background-color: #f7f7f7;
+  width: 100%;
+
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+}
+#btn {
+  width: 100%;
+  padding:1rem;
+  border: none;
+  font-weight: bold;
+  background-color: rgba(85, 211, 30, 0.463);
+}
+#btn:hover {
+  background-color: rgb(84, 211, 30);
+  color: white;
+  transition: all 500ms;
+}
+
+.tab-pane {
+  text-align: left;
+  padding: 1rem;
+}
+
+.nav-tabs li {
+  font-size: 14px;
+  color: rgb(15, 14, 14);
+}
+.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultField
+ {
+  
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  
+  
+  text-align: center;
+}
+table {
+  font-weight: bold;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bg-dark{
+  width: 100%;
+}
